@@ -1,0 +1,13 @@
+a,b,c=input().split()
+num1=int(a)
+num2=int(b)
+num3=int(c)
+if(num1>num2):
+  if(num1>num3):
+    print(num1)
+  else:
+    print(num3)
+elif(num2>num3):
+  print(num2)
+else:
+  print(num3)
